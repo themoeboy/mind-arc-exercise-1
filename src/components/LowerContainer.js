@@ -10,9 +10,8 @@ ${props => (props.view === 'mobile') ?  'height:auto' :
 const CardContainer = styled.div`
     display:flex;
     width: 100%;
-    height: 100%;
-    ${props => (props.view === 'mobile') ?  'flex-direction:column; gap: 5vh; padding: 25px 10px 25px 10px; align-items: center;  ' :
-     'flex-direction:row;  align-items: center; justify-content: center; padding: 25px 10px 25px 10px; box-sizing: border-box; flex-wrap:wrap; gap: 5vh;' };
+    ${props => (props.view === 'mobile') ?  'height: auto; flex-direction:column; gap: 5vh; padding: 25px 0px; align-items: center;  ' :
+     'height: 100%; flex-direction:row;  align-items: center; justify-content: center; padding: 25px 10px 25px 10px; box-sizing: border-box; flex-wrap:wrap; gap: 5vh;' };
 `
 
 const LowerContainer = ({ view }) => {

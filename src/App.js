@@ -9,8 +9,11 @@ const Wrapper = styled.div``;
 const MainContainer = styled.div`
   display:flex;
   height:100vh;
-  width: 100vw;
+  width: 100%;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 `;
 
 

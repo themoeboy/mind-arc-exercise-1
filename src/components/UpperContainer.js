@@ -5,6 +5,7 @@ const ParentContainer = styled.div`
   width:100%;
   ${props => (props.view === 'mobile') ?  'height:315px' : 'height: 49%'};
   display:flex;
+  box-sizing: border-box;
   flex-direction:column;
   background-color: #8F8F8F;
   align-items: center;
