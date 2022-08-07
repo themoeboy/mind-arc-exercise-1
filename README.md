@@ -1,10 +1,8 @@
-# Getting Started with Create React App
+# Installation and Setup
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `npm install`
 
-## Available Scripts
-
-In the project directory, you can run:
+Installs packages that is used for the app
 
 ### `npm start`
 
@@ -14,57 +12,77 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### `npm test App.test.js`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Run simple jest test 
 
-### `npm run build`
+# Libraries Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `styled-components`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Used for CSS Styling of React Components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `react-responsive`
 
-### `npm run eject`
+Media queries in react for responsive design
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Notes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Assets
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Required assets were not able to be used due to link unavailability
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Responsive App
 
-## Learn More
+Devices with width less than 1224px are treated as mobile
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Measurements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+All measurements were manually measured ,from provided reference image, using GIMP.
 
-### Code Splitting
+Reference image for Desktop had these dimensions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Width = 1629
+Height = 1127
 
-### Analyzing the Bundle Size
+Lower Half of Page had height of 576px, hence Upper and Lower Part of the Page for desktop was ratioed to 49:51
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Cards had height of 500px, Card height was set to 46% of viewport in Desktop View. Based on observation,
+Cards had variable height for Mobile View. Card image height was measured as 215px. For Desktop View, Card image height was set to 43%. Card image Height for Mobile was maintained as 215px but other card element dimensions were varied.
 
-### Making a Progressive Web App
+Other notable estimated measurements: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+card image padding : 20px
+card image text color: #969696 
 
-### Advanced Configuration
+card text word spacing: 6px;
+card text font height: 15px;
+card text line height: 20px;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+read more button height: 40px;
+read more button width: 150px;
+read more button letter spacing: ~3px; 
 
-### Deployment
+(header = Hello Developer)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+header font size: ~60px;
+header font size (mobile): ~40px;
+header letter spacing: ~7px; 
 
-### `npm run build` fails to minify
+(subheader = Lorem ipsum...)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+subheader font size (mobile): ~20px;
+subheader padding left and right (mobile): 10px;
+
+
+
+
+
+
+
+
+
+
+
+
+
