@@ -19,7 +19,7 @@ const ParentContainer = styled.div`
     }
 `;
 
-const ReadMoreButton = ({}) => {
+const ReadMoreButton = () => {
     return (
         <ParentContainer>
            {"READ MORE"}

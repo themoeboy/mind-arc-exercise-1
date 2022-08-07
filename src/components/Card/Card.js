@@ -33,12 +33,6 @@ const DimensionLabel = styled.div`
     color: #969696;
 `;
 
-const WaterMark = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #969696;
-`;
 
 const TextContainer = styled.div`
   width: 100%;
